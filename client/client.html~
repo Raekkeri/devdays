@@ -28,7 +28,7 @@
 		msg.user = "test";
 		var rand= Math.floor((Math.random() * 9) + 1);
 		msg.data = "_SOUND"+rand;
-            sock.send("_SOUND"+rand);
+            sock.send("_"+rand);
         };
 
 
